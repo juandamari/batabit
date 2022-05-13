@@ -1,0 +1,26 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;/* este redondea los cuadrados  */
+    text-decoration: none; /* elimina los puntos del codigo li de lista */
+}
+
+.main-nav__item a:hover { /* al ponerle a:hover le empiezo a dar estilo al poner el cursos encima de las palabras para el navegador */
+color: blue;
+}
+.main-nav__item a:active { /* a:active al seleccionar en esa parte especifica debe de cambiar de color */
+ color: red;
+}
+.main-nav__item a::after { /* quiere decir que despues del elemento agregarle algo mas */
+    content: " | ";
+}

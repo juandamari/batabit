@@ -1,0 +1,20 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+section {
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px; /* al agregarle min-height, le digo al programa que el cresca el background con el texto y su minimo sea 500px */
+    margin: 0 auto; /* al agregarle auto genero que se centre el background con respecto al margen  */
+    background-color: red;
+}

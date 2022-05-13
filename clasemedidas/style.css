@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+   
+}
+p {
+    font-size: 1.5rem;
+    color: blue;
+}
+h3 {
+    font-size: 4.0rem;
+    color: red;
+}
+h2 {
+    font-size: 5.3rem;
+    color: green;
+}
