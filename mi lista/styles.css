@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+   }
+
+.mi_lista {
+    color: blue;
+    font-size: 5rem;
+}
+.verduras {
+    color:rgb(16, 235, 82) ;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.frutas {
+    color: rgb(229, 245, 7);
+    font-size: 3rem;
+    font-style: italic;
+}
+.frutas2 {
+    color:rgb(229, 245, 7) ;
+}
+.carne2 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carnes {
+    color: red;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.cebolla {
+    color: rgb(16, 235, 82);
+
+}
+p {
+    font-size: 5rem;
+}
