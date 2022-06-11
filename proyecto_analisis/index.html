@@ -9,22 +9,29 @@
     </head>
     <body>
         <article class="container">
-            <div class="item1"></div>
-            <label for="input1">escribe tus ingresos</label>
-            <input id="input1" type="number"/>
 
-            <div class="item2"></div>
-            <label for="input2">escribe tus gastos</label>
-            <input id="input2" type="number"/>
+            <div class="item1">
+                <label for="input1">escribe tus ingresos</label>
+                <input id="input1" type="number"/>
+            </div>
+            
+            <div class="item2">
+                <label for="input2">escribe tus gastos</label>
+                <input id="input2" type="number"/>
+            </div>
+            
+            <div class="item3">
+                <label for="opciones">escribe</label>
+                <select id="opciones">
+                    <option value="0.20">bajo</option>
+                    <option value="0.35">medio</option>
+                    <option value="0.40">alto</option>
+                </select>
+                <button type="button" onclick="clickboton()"> calcular </button>
+                </div>
 
-            <div class="item3"></div>
-            <label for="input3">que moderacion de calculo de inversion deseas</label>
-            <select id="input3">
-                <option value="1">inversion</option>
-                <option value="2">moderado</option>
-            <button type="button" onclick="clickboton()">
-                calcular
             <p id="resultp"></p>
+
         </article>
         <script src="./index.js"></script>
     </body>

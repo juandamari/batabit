@@ -1,7 +1,7 @@
-function capacidadDeuda (ingreso, egreso, porcentaje) {
+function capacidadDeuda (ingreso, egreso,porcentaje) {
+    /* const porcentaje = 0.35 */
     const capacidad = (ingreso - egreso) * porcentaje;
     return capacidad;
-    console.log(capacidad);
 };
 
 function clickboton() {
@@ -10,14 +10,19 @@ function clickboton() {
 
     const inputdiscount = document.getElementById ("input2");
     const enteregreso = inputdiscount.value;
-    
-    const inputcupon = document.getElementById("input3");
-    const entercapacidad = inputcupon.value;
+
+    const inputporcentaje = document.getElementById ("opciones");
+    const enterporcentaje = inputporcentaje.value
 
     const resultCoupon = document.getElementById("resultp")
+    
+    let capacidad = capacidadDeuda (enteringreso,enteregreso,enterporcentaje)
+    resultCoupon.innerText =`capacidad de endeudamiento es de: $${capacidad} pesos`
+    
+}
 
 
-let porcentaje
+/* let porcentaje
 let capacidad;
 
 switch(true) {
@@ -36,4 +41,4 @@ switch(true) {
         resultCoupon.innerText = `Su capacidad de ahorro es de maximo de ahorro de se puede calcular`;
         break;
 };
-}
+} */
