@@ -11,7 +11,7 @@ html{
     margin: 20px auto;
     display: grid;
     width: 90%;
-    height: 500px;
+    height: 400px;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 50px 50px 50px 1fr;
     gap: 2px;

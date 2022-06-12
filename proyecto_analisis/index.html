@@ -9,28 +9,32 @@
     </head>
     <body>
         <article class="container">
+            
+            <div class="title">
+                <h1>Calcula la capacidad de endeudamiento, segun tus ingresos y gastos</h1>
+                <p>Esta capacidad de endeudamiento se calcula de acuerdo a las recomendaciones de los bancos que no excedan el 40% de tus ingresos</p>
+            </div>
 
             <div class="item1">
-                <label for="input1">escribe tus ingresos</label>
+                <label for="input1">Digita tus ingresos mensuales</label>
                 <input id="input1" type="number"/>
             </div>
             
             <div class="item2">
-                <label for="input2">escribe tus gastos</label>
+                <label for="input2">Digita todos tus gastos que tienes del mes</label>
                 <input id="input2" type="number"/>
             </div>
             
             <div class="item3">
-                <label for="opciones">escribe</label>
+                <label for="opciones">Escoge el nivel de capacidad de endeudamiento</label>
                 <select id="opciones">
                     <option value="0.20">bajo</option>
                     <option value="0.35">medio</option>
                     <option value="0.40">alto</option>
-                </select>
-                <button type="button" onclick="clickboton()"> calcular </button>
+                </select><br>
+                <button type="button" onclick="clickboton()" id="boton"> calcular </button>
+                <p id="resultp"></p>
                 </div>
-
-            <p id="resultp"></p>
 
         </article>
         <script src="./index.js"></script>
