@@ -18,3 +18,21 @@ function clickboton() {
     let capacidad = capacidadDeuda (enteringreso,enteregreso,enterporcentaje)
     resultCoupon.innerText =`capacidad de endeudamiento es de: $${capacidad} pesos`
 };
+
+function capacidadAhorro (ingreso, porcentajeahorro) {
+    const ahorro = (ingreso / 100) * porcentajeahorro;
+    return ahorro;
+}
+function clickboton2() {
+    const inputingreso = document.getElementById("input3");
+    const ahorroIngreso = inputingreso.value;
+
+    const inputPorcent = document.getElementById("opciones2");
+    const porcentajeahorro = inputPorcent.value;
+
+    const resultCouponn = document.getElementById("resultpp")
+
+    let capacidadAhoro = capacidadAhorro(ahorroIngreso,porcentajeahorro)
+    resultCouponn.innerText =`capacidad de endeudamiento es de: $${capacidadAhoro} pesos`
+}
+
