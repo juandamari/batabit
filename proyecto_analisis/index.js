@@ -34,5 +34,6 @@ function clickboton2() {
 
     let capacidadAhoro = capacidadAhorro(ahorroIngreso,porcentajeahorro)
     resultCouponn.innerText =`capacidad de endeudamiento es de: $${capacidadAhoro} pesos`
+console.log(clickboton2);
 }
 
